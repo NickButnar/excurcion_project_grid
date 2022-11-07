@@ -1,0 +1,17 @@
+/* .excursion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+} */
+
+.excursion {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  .excursion {
+    grid-template-columns: 100%;
+  }
+}
